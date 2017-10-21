@@ -1,0 +1,18 @@
+{
+  "name": "Sandbox",
+  "version": "1.0.0",
+  "description": "Node-Express playground",
+  "main": "index.js",
+  "repository": "https://github.com/danzera/node-express-sandbox.git",
+  "author": "Dan Zera",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "body-parser-json": "^1.9.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2"
+	},
+	"scripts": {
+		"start": "node server/app.js"
+	}
+}
