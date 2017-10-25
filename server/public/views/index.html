@@ -188,9 +188,11 @@
     <script src="../vendors/jquery-menu-aim/jquery.menu-aim.js" type="text/javascript"></script>
     <script src="../vendors/bootstrap/bootstrap.min.js" type="text/javascript"></script>
     <script>
+			console.log('running jquery.menu-aim script')
 				
 				// THIS jQuery OBJECT REFERS TO THE MAIN DROPDOWN MENU 
 				var $menu = $(".dropdown-menu");
+				console.log('$menu', $menu);
 				
         // jQuery-menu-aim: <meaningful part of the example>
         // Hook up events to be fired on menu row activation.
@@ -209,7 +211,9 @@
                 submenuId = $row.data("submenuId"),
                 $submenu = $("#" + submenuId),
                 height = $menu.outerHeight(),
-                width = $menu.outerWidth();
+								width = $menu.outerWidth();
+								console.log('$row', $row);
+            		console.log('$submenu', $submenu);
             // Show the submenu
             $submenu.css({
                 display: "block",
