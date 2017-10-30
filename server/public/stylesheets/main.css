@@ -1,3 +1,24 @@
 body {
-	background-color: salmon;
+	background-color: tan;
+}
+
+table {
+	background-color: seagreen;
+	border: 3px solid black;
+}
+
+thead {
+	background-color: red;
+}
+
+th {
+	width: 100%;
+}
+
+tbody {
+	background-color: blanchedalmond;
+}
+
+td {
+	width: 100%;
 }
